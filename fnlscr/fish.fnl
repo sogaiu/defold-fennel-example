@@ -96,5 +96,6 @@
       (= message-id (hash :remove))
       (do
         (particlefx.play "#explosion")
+        (sound.play "sounds#low")
         (go.delete)))
   (values))
